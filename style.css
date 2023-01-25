@@ -1,0 +1,14 @@
+section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+	margin-bottom: 2rem;
+}
+
+.item {
+	grid-row: 1 / 4;
+	/* uncomment lines 12 and 13 to see how subgrid can help bring the items in each section into alignment */
+
+	/* 	display: grid;
+	grid-template-rows: subgrid; */
+}
